@@ -1,0 +1,7 @@
+s = input("Enter a string: ")
+print("Original:", s)
+print("First 5 characters:", s[:5])
+print("Last 5 characters:", s[-5:])
+print("Middle characters:", s[2:7])
+print("Every second character:", s[::2])
+print("Reverse string:", s[::-1])
